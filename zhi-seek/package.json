@@ -1,0 +1,53 @@
+{
+  "name": "full-stack-seek",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.1.0",
+    "express": "^4.16.3",
+    "foreman": "^2.0.0",
+    "google-maps-react": "^2.0.2",
+    "jquery": "^3.3.1",
+    "mailgun-js": "^0.18.0",
+    "marked": "^0.3.19",
+    "mongodb": "^2.2.16",
+    "mongose": "0.0.2-security",
+    "pg-promise": "^8.4.0",
+    "react-bootstrap": "^0.32.1",
+    "react-geolocated": "^2.3.2",
+    "react-places-autocomplete": "^6.1.3",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "dev": "nodemon server.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "history": "^4.7.2",
+    "material-ui": "^0.20.0",
+    "nodemon": "^1.17.3",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-grid-system": "^3.2.3",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-tap-event-plugin": "^3.0.2",
+    "redux": "^4.0.0",
+    "redux-form": "^7.3.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "proxy": "http://localhost:5000/api"
+}
